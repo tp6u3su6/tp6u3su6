@@ -1,3 +1,11 @@
+import pandas as pd
+import requests, os
+from datetime import datetime
+from obspy.geodetics.base import gps2dist_azimuth
+import matplotlib.pyplot as plt
+import time
+import shutil
+
 #read weather station information 找距地震測站15公里以內的氣象測站
 ## 氣象局沒有資料: 宜蘭古魯 花蓮豐里
 
