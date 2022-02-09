@@ -1,0 +1,13 @@
+### Weather data processing ###
+
+# 1. Downdload weather data from CWB
+https://e-service.cwb.gov.tw/HistoryDataQuery/
+check_need_Rsta.py # check which weather stations we need.
+# Then we need to get the URL for each staiotn.
+# After get the all URL
+request_weatherDATA.py # use python to request the data from CWB
+
+
+
+### PLOT ###
+
