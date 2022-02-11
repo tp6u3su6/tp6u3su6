@@ -1,0 +1,12 @@
+## The used codes
+
+bash			# cuz using csh will have some problem, so use bash.
+conda activate ispaq	# activate conda env ispaq
+ispaq.ipynb 		# create xml file for each station
+conda activate ispaq 	# use conda env
+change_format.py	# change data format to IRIS format
+xml2dataless.py 	# change station XML file to dataless
+xml2dataless.py		# change dataless to RESP file
+PSD_plot.py		# plot PSD plot for all mseed file
+
+##Full process: https://foil-bergamot-d7a.notion.site/PSD-8d0268c0005647ed9ff27b9ce7dcd3ab`
